@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import { BrowserRouter } from 'react-router-dom'
+import Homepage from './components/pages/Homepage'
 
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-2xl font-bold text-red-600'> hello world </h1>
+      <Homepage/>
+      
+
     </div>
   )
 }
