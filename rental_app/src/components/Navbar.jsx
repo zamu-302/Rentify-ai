@@ -21,7 +21,7 @@ export default function Navbar() {
       <Link to="/" className="text-xl font-bold ">Rentify</Link>
 
       <div className="flex gap-6">
-        <Link to="/homes">Homes</Link>
+        <Link to="/homes" >Homes</Link>
         <Link to="/hotels">Hotels</Link>
         <Link to="/cars">Cars</Link>
       </div>
@@ -41,7 +41,7 @@ export default function Navbar() {
         </button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent side="bottom" align="end" style={{ width: 192, color:"white" }}>
+      <DropdownMenuContent side="bottom" align="end" style={{ width: 192, backgroundColor:"black", color:"white" }}>
         <DropdownMenuItem>Add Property</DropdownMenuItem>
         <DropdownMenuItem>Rent Calculator</DropdownMenuItem>
         <DropdownMenuItem> Accounts</DropdownMenuItem>
